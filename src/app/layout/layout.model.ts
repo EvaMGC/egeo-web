@@ -103,6 +103,10 @@ export const MENU: Array<EgeoMenuSchema> = [
             link: '/components/forms',
             submenu: [
                {
+                  label: { key: 'MENU.COMPONENTS.FORMS.DYNAMIC_FORM', translate: true },
+                  link: '/components/forms/dynamic-form'
+               },
+               {
                   label: { key: 'MENU.COMPONENTS.FORMS.CHECKBOX', translate: true },
                   link: '/components/forms/checkbox'
                },

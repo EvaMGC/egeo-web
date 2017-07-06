@@ -2,7 +2,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { Error404Component } from './errors/error.404.component';
 import { LayoutComponent } from './layout/layout.component';
-import { AppComponent } from './app.component';
 
 import { HeaderDemoComponent } from './header-demo';
 
@@ -49,6 +48,7 @@ export const routes: Routes = [
          { path: 'components/forms/checkbox', loadChildren: './+components/checkbox/checkbox.module#CheckboxModule' },
          { path: 'components/forms/combobox', loadChildren: './+components/combobox/combobox.module#ComboboxModule' },
          { path: 'components/forms/input', loadChildren: './+components/input/input.module#InputModule' },
+         { path: 'components/forms/dynamic-form', loadChildren: './+components/dynamic-form/dynamic-form.module#DynamicFormModule' },
          { path: 'components/forms/radio', loadChildren: './+components/radio/radio.module#RadioModule' },
          { path: 'components/forms/switch', loadChildren: './+components/switch/switch.module#SwitchModule' },
          { path: 'components/forms/textarea', loadChildren: './+components/textarea/textarea.module#TextareaModule' },

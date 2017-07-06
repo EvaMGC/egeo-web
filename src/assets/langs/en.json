@@ -46,7 +46,8 @@
             "CHECKBOX": "Checkbox",
             "COMBOBOX": "Combobox",
             "SWITCH": "Switch",
-            "TEXTAREA": "Textarea"
+            "TEXTAREA": "Textarea",
+            "DYNAMIC_FORM": "Dynamic form"
          },
          "HELP": {
             "LABEL": "Help",
